@@ -2,13 +2,13 @@
 # https://telar.org
 
 # Site Settings
-title: "Telar"
-description: "Telar (Spanish for 'loom') is a static site generator built on Jekyll that weaves together IIIF images, text, and layered contextual information into interactive digital narrative exhibitions. <a href='https://github.com/UCSB-AMPLab/telar'>Telar</a> is a project of <a href='https://neogranadina.org'>Neogranadina</a>, the <a href='https://ampl.clair.ucsb.edu/'>UCSB Archives, Memory, and Preservation Lab</a>, and the <a href='https://liberalarts.utexas.edu/history/'>UT Archives, Mapping, and Pedagogy Lab</a>."
-url: "https://ampl.clair.ucsb.edu"
-baseurl: "/telar"
-author: ""
+title: "Alpaca"
+description: "Alpaca"
+url: "https://yosvanitrujillo9-dot.github.io"
+baseurl: "/alpaca"
+author: "yosvanitrujillo9-dot"
 email: ""
-telar_theme: "trama" # Options: trama, paisajes, neogranadina, santa-barbara, austin, or custom
+telar_theme: "paisajes" # Options: trama, paisajes, neogranadina, santa-barbara, austin, or custom
 logo: ""
 telar_language: "en" # Options: "en" (English), "es" (Español)
 collection_mode: false # Set to true to show objects first with large thumbnails and stories below with small thumbnails (collection-first homepage)
@@ -18,7 +18,7 @@ story_interface:
   show_on_homepage: true # Set to false to hide stories section from homepage (stories still accessible via direct URL)
   show_story_steps: true # Set to false to hide "Step X" overlay in stories
   show_object_credits: true # Set to true to display object credits badge (bottom-left corner, dismissable)
-  include_demo_content: true # Fetch demo stories from content.telar.org. Switch this off to hide demo stories and their content.
+  include_demo_content: false # Fetch demo stories from content.telar.org. Switch this off to hide demo stories and their content.
 
 # Collection Interface Settings
 collection_interface:
@@ -45,7 +45,7 @@ story_key: "test"
 #    - If using GitHub Pages: GitHub Actions will automatically discover tab GIDs and fetch CSVs
 #    - If running locally: Run `python3 scripts/fetch_google_sheets.py` before building
 google_sheets:
-  enabled: true
+  enabled: false
   published_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT9eeRoyQCr1j-1uDaWBm-rgZNXtn9A-mepL0I4dqDTx2-E_6gbVD-8x0DYDVhppiAzrFpd20_9cr3z/pubhtml"
 
 #
