@@ -1,7 +1,5 @@
 ---
-title: Acerca de Telar
-localized_for: about.md
-language: es
+title: "Acerca de Telar"
 ---
 
 # Acerca de Telar
